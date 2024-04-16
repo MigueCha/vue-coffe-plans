@@ -2,7 +2,7 @@
     <div class="plan">
         <div class="description">
           <span class="title">
-            {{ name }} 👍Likes: {{ likes }}
+            {{ name }}
           </span>
         </div>
     </div>
@@ -14,11 +14,6 @@ defineProps({
     type: String,
     required: true,
   },
-
-  likes: {
-    type: Number,
-    default: 0,
-  }
 });
 
 //Funcion ya especializada que permite crear propiedades y no se debe de importar (Macro)
