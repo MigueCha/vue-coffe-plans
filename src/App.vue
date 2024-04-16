@@ -18,10 +18,10 @@ import planItem from './components/plan-item.vue'   //Estamos importando la iden
     </h2>
 
     <div class="plans">
-      <plan-item name="El Soltero" />
+      <plan-item name="El Soltero" :likes="10" />
       <plan-item name="El Viajero" />
       <plan-item name="El Adicto" />   
-      <plan-item />      
+      <plan-item name="El Colombiano"/>      
     </div>
   </div>
 </template>
