@@ -16,3 +16,5 @@
   //Esquema de propiedades de manera mas avanzada (objeto), las propiedades van dentro de las llaves {} 
   //con el objetivo de proveer un objeto, no un arreglo
   </script>
+
+
