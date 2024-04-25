@@ -9,7 +9,7 @@ import planPicker from './components/plan-picker.vue';  //(se esta importando) S
 <header>
 <div>
 <span id="logo">Liquid Gold Box</span>
-<img src="./assets/logo.png" alt="logo">
+<img src="./assets/logo.png" alt="logo">  
 </div>
 </header>
 <div class="content">
@@ -25,6 +25,7 @@ import planPicker from './components/plan-picker.vue';  //(se esta importando) S
 </div> -->
 
 <plan-picker/>
+
 </div>
 </template>
  
