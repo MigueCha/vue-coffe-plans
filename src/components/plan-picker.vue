@@ -1,6 +1,7 @@
 <template>
       <div class="plans">
       <plan-picker-item
+            @select="(payload) => { console.log(`Se selecciono: ${payload}`) }" 
             v-for="plan in plans"
             :name="plan"
             v-bind:key="plan"/>
