@@ -1,8 +1,9 @@
 <script setup>
-// import {ref} from 'vue';
+import {ref} from 'vue';
 // import planItem from './components/plan-picker-item.vue';
 // const plans = ref(["El soltero","El adicto","El viajero","El colombiano"]);
 import planPicker from './components/plan-picker.vue';  //(se esta importando) Siempre especificar bien la ruta
+const showPlans = ref (true);
 </script>
  
 <template>
@@ -24,7 +25,12 @@ import planPicker from './components/plan-picker.vue';  //(se esta importando) S
       v-bind:key="plan"/>
 </div> -->
 
-<plan-picker/>
+<label>
+  <input type="checkbox" v-model="showPlans" />
+  Mostrar Selector de Planes
+</label>
+
+<plan-picker v-if="showPlans"/>
 
 </div>
 </template>
